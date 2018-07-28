@@ -18,10 +18,6 @@ a {
 	text-decoration: none;
 }
 
-ul {
-	list-style: none;
-}
-
 img {
 	max-width: 100%;
 }
@@ -81,7 +77,34 @@ img {
 	font-size: 1.2rem;
 	text-align: left;
 }
+/*===== Vantagens =====*/
+.vantagens {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 20px 20px 40px;
+	background-color: #24292e;
+	color: #fff;
+}
 
+.vantagens h3 {
+	font-weight: 400;
+	font-size: 1.5rem;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.vantagens hr {
+	width: 150px;
+	height: 3px;
+	margin-bottom: 50px;
+	background-color: #fff;
+}
+
+.vantagens li {
+	margin-bottom: 20px;
+	font-size: 1.4rem;
+}
 /* MOBILE FIRST */
 /* SMAL DEVICE - SMARTPHONES */
 @media screen and (min-width: 480px) {
@@ -92,6 +115,9 @@ img {
 /* SMAL DEVICE - TABLETES */
 @media screen and (min-width: 768px) {
 	.janela {flex-direction: row; align-items: center;}
+	.vantagens h3 {font-size: 2rem;}
+	.vantagens li {font-size: 1.7rem;}
+	.vantagens ul {margin-left: 50px;}
 }
 
 /* MEDIUM DEVICE - TABLETES E DESKTOP */
@@ -101,6 +127,8 @@ img {
 	.icon-cabecalho {font-size: 3rem;}
 	.text h2 {font-size: 2.4rem;}
 	.text p {font-size: 1.5rem;}
+	.vantagens li {font-size: 1.9rem; margin-bottom: 25px;}
+	.vantagens ul {margin-left: 70px;}
 }
 
 /* LARGE DEVICE - WIDE SCREENS */
