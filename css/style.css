@@ -105,6 +105,18 @@ img {
 	margin-bottom: 20px;
 	font-size: 1.4rem;
 }
+/*===== Rodape =====*/
+.rodape {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.rodape p {
+	margin-bottom: 5px;
+	text-align: center;
+	font-weight: 400;
+}
 /* MOBILE FIRST */
 /* SMAL DEVICE - SMARTPHONES */
 @media screen and (min-width: 480px) {
